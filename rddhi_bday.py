@@ -75,15 +75,7 @@ when we are surrounded by our dear."""
     
     st.write(poem)  # Display the poem
 
-    # Option 3 content
-    st.subheader("THOSE WHERE THE DAY(cringy but true, quite frankly makes me seem old telling this.)")
-    together_image_url = r"C:\Users\harsh\Downloads\WhatsApp Image 2024-10-22 at 21.10.19.jpeg"
-  # Replace with a direct image URL of you both
-    st.image(together_image_url, caption="Us Together!", use_column_width=True)
     
-    # Input space for your message
-    custom_message = st.text_area( "Happy Birthday, RDDHI! You mean the world to me!")  # Default message
-
 
 # If not logged in, show clue for incorrect password attempts
 else:
